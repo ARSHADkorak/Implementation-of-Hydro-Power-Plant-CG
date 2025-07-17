@@ -20,19 +20,19 @@ void welcomeDisplay()
 	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 	glColor3f(255,215,0);
 	glRasterPos3f(25,95,0);
-	char msg1[] = "VIDYA VIKAS INSTITUTE OF ENGINEERING, MYSORE - 570028";
+	char msg1[] = "message";
 	for(int i=0;i<strlen(msg1);i++)
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,msg1[i]);
 
 	glColor3f(1,0,1);
 	glRasterPos3f(25.5,90,0);
-	char msg2[] = "DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING";
+	char msg2[] = "message";
 	for(int i=0;i<strlen(msg2);i++)
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,msg2[i]);
 
 	glColor3f(1,1,1);
 	glRasterPos3f(33,80,0);
-	char msg3[] = "COMPUTER GRAPHICS MINI-PROJECT ON";
+	char msg3[] = "message";
 	for(int i=0;i<strlen(msg3);i++)
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,msg3[i]);
 
@@ -51,14 +51,14 @@ void welcomeDisplay()
 
 	glColor3f(255,215,0);
 	glRasterPos3f(32.5,49,0);
-	char msg6[] = "M ARSHAD    4VM20CS036";
+	char msg6[] = "name";
 	for(int i=0;i<strlen(msg6);i++)
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,msg6[i]);
 
 
 	glColor3f(255,215,0);
 	glRasterPos3f(32.5,44,0);
-	char msg7[] = "M D TARUN       4VM20CS037";
+	char msg7[] = "name";
 	for(int i=0;i<strlen(msg7);i++)
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,msg7[i]);
 
